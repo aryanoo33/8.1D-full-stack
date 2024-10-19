@@ -1,0 +1,66 @@
+.post-container {
+  padding: 25px; /* Slightly reduced padding for a compact feel */
+  background-color: #ffffff; /* White background for a clean look */
+  border-radius: 16px; /* More rounded corners for a softer appearance */
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more depth */
+  margin-top: 30px; /* Increased top margin for more spacing */
+  max-width: 850px; /* Adjusted max width for a tighter layout */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header {
+  text-align: center;
+  color: #1a1a2e; /* Darker shade for a bold header */
+  font-size: 34px; /* Slightly larger font size for emphasis */
+  font-weight: 800; /* Bolder weight for a more impactful header */
+  margin-bottom: 30px; /* Reduced bottom margin */
+  letter-spacing: 1px; /* Added letter spacing for a modern touch */
+}
+
+.post-type-selector {
+  text-align: center;
+  margin-bottom: 25px; /* Adjusted bottom margin for better spacing */
+}
+
+.post-type-heading {
+  font-size: 26px; /* Larger font size for prominence */
+  color: #4b6584; /* Muted dark blue for a modern look */
+  margin-bottom: 15px; /* Reduced margin for a tighter layout */
+  font-weight: 600; /* Slightly bolder weight for the heading */
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Reduced gap for better alignment */
+  flex-wrap: wrap; /* Wrap items for better responsiveness */
+}
+
+.radio-label {
+  font-size: 20px; /* Larger font size for readability */
+  color: #2d98da; /* Bright blue for a more vibrant look */
+  font-weight: 500; /* Medium weight for emphasis */
+}
+
+.radio-label input {
+  margin-right: 10px; /* Slightly increased margin for spacing */
+}
+
+@media (max-width: 768px) {
+  .post-container {
+      padding: 15px; /* Smaller padding for mobile */
+  }
+
+  .main-header {
+      font-size: 30px; /* Reduced font size for better fit */
+  }
+
+  .post-type-heading {
+      font-size: 22px; /* Slightly larger font for mobile readability */
+  }
+
+  .radio-group {
+      gap: 10px; /* Reduced gap for smaller screens */
+  }
+}

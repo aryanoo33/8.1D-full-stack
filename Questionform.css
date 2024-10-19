@@ -1,0 +1,104 @@
+.question-form {
+    background-color: #ffffff; /* White background for a clean look */
+    padding: 25px; /* Slightly reduced padding for a compact feel */
+    border-radius: 16px; /* More rounded corners for a softer appearance */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more depth */
+    margin-top: 30px; /* Increased top margin for spacing */
+    max-width: 750px; /* Slightly wider form */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 30px; /* More space at the bottom */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.question-form-header {
+    text-align: center;
+    font-size: 30px; /* Slightly larger font size for emphasis */
+    color: #2a2a72; /* Dark indigo for a bold header */
+    font-weight: 800; /* Heavier weight for emphasis */
+    margin-bottom: 25px; /* Reduced bottom margin for a tighter layout */
+    letter-spacing: 0.5px; /* Added letter spacing for a modern touch */
+}
+
+.input-field {
+    margin-bottom: 18px; /* Slightly reduced margin for compact layout */
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 14px; /* Increased padding for more comfort */
+    border: 1px solid #dcdde1; /* Light border for a subtle look */
+    border-radius: 10px; /* More rounded corners */
+    font-size: 17px; /* Slightly larger font for readability */
+    color: #3d3d3d; /* Darker gray for better contrast */
+    background-color: #fafafa; /* Light gray background for a modern look */
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.05); /* Softer shadow */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.textarea-field textarea {
+    height: 180px; /* Adjusted height */
+    resize: vertical;
+}
+
+.input-field input:focus,
+.textarea-field textarea:focus {
+    border-color: #6c63ff; /* Indigo focus color for modern appeal */
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.3); /* Softer glow effect */
+}
+
+.post-button-container {
+    text-align: center;
+    margin-top: 25px; /* Increased margin for better spacing */
+    margin-bottom: 25px;
+}
+
+.custom-button {
+    background-color: #6c63ff; /* Vibrant indigo background */
+    color: #ffffff;
+    border: none;
+    padding: 14px 30px; /* Increased padding for a larger button */
+    border-radius: 12px; /* More rounded corners */
+    font-size: 17px; /* Slightly larger font for better readability */
+    font-weight: 700; /* Heavier font weight for emphasis */
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #5753d6; /* Darker indigo on hover */
+    box-shadow: 0 6px 20px rgba(87, 83, 214, 0.3); /* Stronger shadow effect */
+}
+
+.ui.form .field > label {
+    font-weight: 700; /* Bolder font weight */
+    color: #2a2a72; /* Consistent indigo color */
+    margin-bottom: 10px; /* Slightly increased margin */
+}
+
+.ui.form .field {
+    margin-bottom: 18px; /* Reduced margin for a more compact layout */
+}
+
+@media (max-width: 768px) {
+    .question-form {
+        padding: 15px; /* Smaller padding for mobile */
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .question-form-header {
+        font-size: 26px; /* Adjusted font size for mobile */
+    }
+
+    .custom-button {
+        padding: 12px 20px; /* Smaller padding for a more compact button */
+        font-size: 16px; /* Slightly smaller font size for better fit */
+    }
+}

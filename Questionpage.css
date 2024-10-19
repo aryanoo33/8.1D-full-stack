@@ -1,0 +1,128 @@
+.find-question-page {
+  padding: 28px; /* Slightly reduced padding for a compact feel */
+  background-color: #ffffff; /* White background for a clean appearance */
+  border-radius: 14px; /* More rounded corners for a softer look */
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12); /* Enhanced shadow for depth */
+  margin-top: 25px; /* Adjusted top margin */
+  max-width: 850px; /* Slightly smaller max-width for a tighter layout */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.find-question-header {
+  text-align: center;
+  color: #4b6584; /* Muted blue-gray for a modern look */
+  font-size: 34px; /* Slightly larger font size */
+  font-weight: 800; /* Bolder font for emphasis */
+  margin-bottom: 30px; /* Reduced bottom margin */
+  letter-spacing: 0.5px; /* Added letter spacing for style */
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px; /* Adjusted bottom margin */
+  gap: 15px; /* Slightly smaller gap */
+  flex-wrap: wrap;
+}
+
+.filter-input {
+  flex: 1;
+  min-width: 220px;
+  border-radius: 10px; /* More rounded corners */
+  border: 1px solid #d1d8e0; /* Light gray border for subtlety */
+  padding: 14px; /* Increased padding for comfort */
+  font-size: 17px; /* Slightly larger font for readability */
+  font-weight: 600; /* Medium font weight */
+  background-color: #fafafa; /* Light gray background for modern look */
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  transition: all 0.3s ease;
+}
+
+.filter-input:focus {
+  border-color: #6c63ff; /* Indigo border for focus */
+  box-shadow: 0 0 10px rgba(108, 99, 255, 0.3); /* Softer glow */
+  outline: none;
+}
+
+.ui.card.group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px; /* Slightly smaller gap for compact layout */
+  max-width: 100%;
+}
+
+.ui.card {
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  padding: 18px; /* Slightly increased padding */
+}
+
+.ui.card:hover {
+  transform: translateY(-5px); /* Slightly reduced hover effect */
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  background-color: #f4f6f9; /* Light gray background on hover */
+}
+
+.ui.card .content {
+  font-size: 16px; /* Slightly larger font for readability */
+  color: #3d3d3d; /* Darker gray for better contrast */
+}
+
+.ui.card .header {
+  font-size: 22px; /* Larger font size for prominence */
+  color: #2d2d2d; /* Dark gray for header */
+  margin-bottom: 12px; /* Slightly increased margin */
+  font-weight: 700; /* Bold weight */
+}
+
+.ui.card .meta {
+  color: #6c757d; /* Neutral gray for meta information */
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.ui.card .description {
+  color: #495057; /* Darker gray for better readability */
+}
+
+.ui.button.basic.red {
+  border: 1px solid #e84118; /* Bright red for more vibrance */
+  color: #e84118;
+  font-weight: 700; /* Bolder font weight */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ui.button.basic.red:hover {
+  background-color: #e84118; /* Bright red on hover */
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(232, 65, 24, 0.3); /* Stronger shadow */
+}
+
+.ui.card.no-questions {
+  background-color: #f8f9fa; /* Slightly lighter gray */
+  text-align: center;
+  border: 1px solid #dcdde1; /* Light border */
+  padding: 28px; /* Slightly reduced padding */
+  border-radius: 12px; /* More rounded corners */
+  color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+      flex-direction: column;
+  }
+
+  .filter-input {
+      width: 100%;
+  }
+
+  .find-question-header {
+      font-size: 28px; /* Reduced font size for smaller screens */
+  }
+
+  .ui.card {
+      padding: 16px; /* Smaller padding for mobile */
+  }
+}

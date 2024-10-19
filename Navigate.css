@@ -1,0 +1,50 @@
+.nav-menu {
+  background-color: #f4f4f9; /* Light gray background for a clean look */
+  border-radius: 10px; /* Rounded corners for a softer appearance */
+  padding: 20px 30px; /* Ample padding for a spacious layout */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* More prominent shadow for depth */
+}
+
+.nav-menu .item {
+  color: #4a90e2; /* Bright blue text for high visibility */
+  font-weight: 700; /* Bold text for emphasis */
+  font-size: 18px; /* Adjusted font size for better readability */
+  padding: 15px 25px; /* Increased padding for a larger clickable area */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-menu .item:hover {
+  background-color: #d1e8ff; /* Light blue hover effect */
+  color: #003366; /* Dark blue text on hover for contrast */
+}
+
+.nav-menu .active.item {
+  background-color: #4a90e2; /* Bright blue for the active state */
+  color: #ffffff; /* White text for a strong contrast */
+  font-weight: bold;
+  border-radius: 8px; /* More rounded corners for active state */
+}
+
+.nav-menu .item:focus {
+  outline: 3px solid #76baff; /* Outline for focused state for better accessibility */
+  outline-offset: 3px;
+}
+
+.nav-menu .item:not(:last-child) {
+  margin-right: 25px; /* More space between items */
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+      padding: 15px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .nav-menu .item {
+      font-size: 16px; /* Smaller font size for better fit on mobile */
+      padding: 10px 15px; /* Compact padding for mobile */
+  }
+
+  .nav-menu .item:not(:last-child) {
+      margin-right: 15px; /* Reduced margin for smaller screens */
+  }
+}

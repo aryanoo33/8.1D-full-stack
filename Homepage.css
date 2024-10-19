@@ -1,0 +1,20 @@
+.home-page {
+  background-color: #f0f8ff; /* Light blue background color */
+  background-image: url('background.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333; /* Dark gray text color */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Text shadow for better readability */
+  padding: 20px; /* Add some padding */
+  border: 5px solid #add8e6; /* Light blue border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+  
+  
+  
